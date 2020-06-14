@@ -1,0 +1,86 @@
+13/06/2020 2:53:01 PM	This log contains information about the import schema operation into project 'LuccaDatabase' on computer 'LAPTOP-KJTLMPQ2' by user 'paul_'.
+13/06/2020 2:53:01 PM	Import of database schema has started.
+13/06/2020 2:53:06 PM	Gathering database credentials
+13/06/2020 2:53:06 PM	Gathering database options
+13/06/2020 2:53:06 PM	Gathering generic database scoped configuration option
+13/06/2020 2:53:06 PM	Gathering users
+13/06/2020 2:53:06 PM	Gathering roles
+13/06/2020 2:53:06 PM	Gathering application roles
+13/06/2020 2:53:06 PM	Gathering role memberships
+13/06/2020 2:53:06 PM	Gathering filegroups
+13/06/2020 2:53:06 PM	Gathering full-text catalogs
+13/06/2020 2:53:06 PM	Gathering assemblies
+13/06/2020 2:53:06 PM	Gathering certificates
+13/06/2020 2:53:06 PM	Gathering asymmetric keys
+13/06/2020 2:53:06 PM	Gathering symmetric keys
+13/06/2020 2:53:06 PM	Gathering encrypted symmetric keys
+13/06/2020 2:53:06 PM	Gathering schemas
+13/06/2020 2:53:06 PM	Gathering XML schema collections
+13/06/2020 2:53:06 PM	Gathering user-defined data types
+13/06/2020 2:53:06 PM	Gathering user-defined types
+13/06/2020 2:53:06 PM	Gathering table types
+13/06/2020 2:53:06 PM	Gathering unique keys for table types
+13/06/2020 2:53:06 PM	Gathering primary keys for table types
+13/06/2020 2:53:06 PM	Gathering indexes for table types
+13/06/2020 2:53:06 PM	Gathering check constraints for table types
+13/06/2020 2:53:06 PM	Gathering default constraints for table types
+13/06/2020 2:53:06 PM	Gathering partition functions
+13/06/2020 2:53:06 PM	Gathering partition schemes
+13/06/2020 2:53:06 PM	Gathering functions
+13/06/2020 2:53:06 PM	Gathering encrypted functions
+13/06/2020 2:53:06 PM	Gathering aggregates
+13/06/2020 2:53:06 PM	Gathering procedures
+13/06/2020 2:53:06 PM	Gathering encrypted procedures
+13/06/2020 2:53:06 PM	Gathering tables
+13/06/2020 2:53:06 PM	Gathering primary keys
+13/06/2020 2:53:06 PM	Gathering unique constraints
+13/06/2020 2:53:06 PM	Gathering foreign keys
+13/06/2020 2:53:06 PM	Gathering default constraints
+13/06/2020 2:53:06 PM	Gathering check constraints
+13/06/2020 2:53:06 PM	Gathering views
+13/06/2020 2:53:06 PM	Gathering encrypted views
+13/06/2020 2:53:06 PM	Gathering indexes
+13/06/2020 2:53:06 PM	Gathering statistics
+13/06/2020 2:53:06 PM	Gathering full-text index stoplists
+13/06/2020 2:53:06 PM	Gathering search property lists
+13/06/2020 2:53:06 PM	Gathering search properties
+13/06/2020 2:53:06 PM	Gathering full-text indexes
+13/06/2020 2:53:06 PM	Gathering column store indexes
+13/06/2020 2:53:06 PM	Gathering spatial indexes
+13/06/2020 2:53:07 PM	Gathering XML indexes
+13/06/2020 2:53:07 PM	Gathering Selective XML indexes
+13/06/2020 2:53:07 PM	Gathering encrypted triggers
+13/06/2020 2:53:07 PM	Gathering triggers
+13/06/2020 2:53:07 PM	Gathering encrypted and clr ddl triggers
+13/06/2020 2:53:07 PM	Gathering ddl triggers
+13/06/2020 2:53:07 PM	Creating edge constraints
+13/06/2020 2:53:07 PM	Gathering synonyms
+13/06/2020 2:53:07 PM	Gathering defaults
+13/06/2020 2:53:07 PM	Gathering data constraint uddt bindings
+13/06/2020 2:53:07 PM	Gathering rules
+13/06/2020 2:53:07 PM	Gathering data constraint uddt bindings
+13/06/2020 2:53:07 PM	Gathering message types
+13/06/2020 2:53:07 PM	Gathering queues
+13/06/2020 2:53:07 PM	Gathering contracts
+13/06/2020 2:53:07 PM	Gathering services
+13/06/2020 2:53:07 PM	Gathering event notifications
+13/06/2020 2:53:07 PM	Gathering remote service bindings
+13/06/2020 2:53:07 PM	Gathering broker priorities
+13/06/2020 2:53:07 PM	Gathering signatures
+13/06/2020 2:53:07 PM	Gathering data compression options
+13/06/2020 2:53:07 PM	Gathering sequence types
+13/06/2020 2:53:07 PM	Gathering security policies
+13/06/2020 2:53:07 PM	Gather column encryption keys
+13/06/2020 2:53:07 PM	Gathering column master keys
+13/06/2020 2:53:07 PM	Gathering external data sources
+13/06/2020 2:53:07 PM	Gathering external file formats
+13/06/2020 2:53:07 PM	Gathering external tables
+13/06/2020 2:53:07 PM	Gathering extended properties
+13/06/2020 2:53:07 PM	Gathering credentials
+13/06/2020 2:53:07 PM	Gathering logins
+13/06/2020 2:53:07 PM	Gathering server audits
+13/06/2020 2:53:07 PM	Scanning project for duplicate elements
+13/06/2020 2:53:07 PM	Finished duplicate element processing
+13/06/2020 2:53:07 PM	Finished importing database.
+13/06/2020 2:53:07 PM	A summary of the import was saved to the following location: D:\workspaces\perso\zz_examples\test-bulp-backend\Lucca.Test.BackendSenior\LuccaDatabase\Import Schema Logs\LuccaDatabase_20200613125301.log
+13/06/2020 2:53:07 PM	Click Finish to continue...

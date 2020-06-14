@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext “Server=LAPTOP-KJTLMPQ2\MSSQLSERVER01;Database=Lucca;Integrated Security=True” Microsoft.EntityFrameworkCore.SqlServer -OutputDir EFModels -Force
