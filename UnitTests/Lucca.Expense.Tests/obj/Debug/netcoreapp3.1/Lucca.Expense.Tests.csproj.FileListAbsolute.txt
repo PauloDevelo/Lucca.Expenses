@@ -1,3 +1,0 @@
-D:\workspaces\perso\zz_examples\test-bulp-backend\Lucca.Test.BackendSenior\UnitTests\Lucca.Expense.Tests\obj\Debug\netcoreapp3.1\Lucca.Expense.Tests.csprojAssemblyReference.cache
-D:\workspaces\perso\zz_examples\test-bulp-backend\Lucca.Test.BackendSenior\UnitTests\Lucca.Expense.Tests\obj\Debug\netcoreapp3.1\Lucca.Expense.Tests.AssemblyInfoInputs.cache
-D:\workspaces\perso\zz_examples\test-bulp-backend\Lucca.Test.BackendSenior\UnitTests\Lucca.Expense.Tests\obj\Debug\netcoreapp3.1\Lucca.Expense.Tests.AssemblyInfo.cs
