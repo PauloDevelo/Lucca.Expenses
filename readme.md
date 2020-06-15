@@ -83,7 +83,7 @@ Pour trier les dépenses par montant ou par date, il faut préciser le paramètr
 <li>1 pour le tri par date croissante</li>
 </ul>
 
-### Test unitaire
+## Test unitaire
 Les tests unitaires sont dans le répertoire UnitTests.
 Seule la validation d'une dépense est testée.
 
@@ -94,7 +94,7 @@ Pour le cas de la validation des dépenses, il n'était pas nécessaire d'utilis
 
 Pour pouvoir tester ExpensesService, il était nécessaire de mocker ITimeService et d'injecter une instance de LuccaContext configurée avec EntityFramework.Core.InMemory.
 
-### Choix techniques et améliorations
+## Choix techniques et améliorations
 
 Il est pratique de séparer le model exposé par les controleurs de l'API du model de EF d'où DTOModels et EFModels.
 Je n'ai pas pris le temps d'utiliser un mapper (ex AutoMapper) pour mapper les 2 types DTOModels.DTOExpense et EFModels.Expenses...
