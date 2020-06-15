@@ -1,4 +1,4 @@
-﻿# Lucca Depense API
+﻿# Lucca Dépense API
 
 Cette API a été developpée avec .NET Core 3.1
 <br>
@@ -21,7 +21,7 @@ Le fichier *appsettings.json* permet de configurer la chaine de connection à la
 Si la base de donnée est située sur localhost dans l'instance de Microsoft SQLServer par défaut, il ne sera pas nécessaire de modifier cette ligne.
 
 
-## Execution
+## Exécution
 Pour lancer l'API, il suffit de démarrer Lucca.Expense
 
 Au démarrage, votre navigateur par défaut devrait se lancer sur l'url https://localhost:44341/api/expenses
@@ -32,7 +32,7 @@ Pour utiliser l'API avec Postman, il faut désactiver la vérification des certi
 
 
 ## Utilisation de l'API
-### Ajouter une depense
+### Ajouter une dépense
 Pour ajouter une dépense, il est nécessaire de faire une requête POST sur l'url https://localhost:44341/api/expenses avec un body contenant le JSON de la dépense à ajouter:
 
 ```
@@ -62,7 +62,7 @@ Voici par exemple une erreur de validation multiple:
 }
 ```
 
-### Lister les depenses
+### Lister les dépenses
 Pour lister les dépenses, il suffit de faire le GET sur l'url https://localhost:44341/api/expenses
 
 Toutes les dépenses de la base seront listées.
