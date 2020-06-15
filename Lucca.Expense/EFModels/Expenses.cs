@@ -5,6 +5,13 @@ using System.Collections.Generic;
 
 namespace Lucca.Expense.EFModels
 {
+    public enum ExpenseCategory
+    {
+        Restaurant,
+        Hotel,
+        Misc
+    }
+
     public partial class Expenses
     {
         public Expenses()
@@ -20,7 +27,7 @@ namespace Lucca.Expense.EFModels
             this.PurchasedOn = dtoExpense.PurchasedOn;
             this.Currency = dtoExpense.Currency;
             this.Comment = dtoExpense.Comment;
-            this.Category = dtoExpense.Category;
+            this.Category = (ExpenseCategory)Enum.Parse(typeof(ExpenseCategory), dtoExpense.Category);
             this.Amount = dtoExpense.Amount;
         }
 
@@ -29,7 +36,7 @@ namespace Lucca.Expense.EFModels
         public Guid UserId { get; set; }
         public DateTime PurchasedOn { get; set; }
         public string Comment { get; set; }
-        public string Category { get; set; }
+        public ExpenseCategory Category { get; set; }
         public decimal Amount { get; set; }
         public string Currency { get; set; }
 
@@ -45,7 +52,7 @@ namespace Lucca.Expense.EFModels
                 UserId = this.UserId,
                 User = $"{this.User.FirstName.Trim()} {this.User.LastName.Trim()}",
                 Amount = this.Amount,
-                Category = this.Category,
+                Category = Enum.GetName(typeof(ExpenseCategory), this.Category),
                 Comment = this.Comment,
                 Currency = this.Currency,
                 PurchasedOn = this.PurchasedOn

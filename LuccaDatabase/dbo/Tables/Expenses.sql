@@ -3,7 +3,7 @@
     [UserId]      UNIQUEIDENTIFIER NOT NULL,
     [PurchasedOn] DATETIME2 (7)    NOT NULL,
     [Comment]     NVARCHAR (MAX)   NOT NULL,
-    [Category]    NCHAR (100)      NOT NULL,
+    [Category]    INT      NOT NULL,
     [Amount]      SMALLMONEY       NOT NULL,
     [Currency]    CHAR (3)         NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
