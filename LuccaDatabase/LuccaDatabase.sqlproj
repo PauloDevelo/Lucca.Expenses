@@ -24,6 +24,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <GenerateCreateScript>True</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -63,10 +64,13 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\UserInfo.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </Build>
     <Build Include="dbo\Tables\Expenses.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </Build>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
