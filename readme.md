@@ -13,6 +13,7 @@ Elle permet de :
 
 Afin de pouvoir initialiser la base de donnée, il faut construire le projet sql LuccaDatabase.
 Dans le répertoire bin de ce projet sera généré un script sql *LuccaDatabase_Create.sql* permettant de créer la base de donnée et de l'initialiser dans une instance de Microsoft SQLServer.
+Ce script de création peut être executé dans Microsoft SQL Server Management Studio après avoir activé *SQLCMD mode*.
 
 Les 2 utilisateurs Stark Anthony et Romanova Natasha sont ajoutés grace à ce script de création...
 
@@ -45,6 +46,8 @@ Pour ajouter une dépense, il est nécessaire de faire une requête POST sur l'u
     "Currency":"RUB"
 }
 ```
+
+Pour la catégorie de la dépense, seules les valeurs *Restaurant*, *Hotel* et *Misc* sont acceptées.
 
 En cas d'erreur, un middleware permet de catcher les exceptions de l'API.
 Les erreurs de validation sont gérés dans une exception catchée par ce middleware puis transformée par ExpenseProblemDetailsFactory.
