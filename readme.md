@@ -87,8 +87,25 @@ Pour trier les dépenses par montant ou par date, il faut préciser le paramètr
 Les tests unitaires sont dans le répertoire UnitTests.
 Seule la validation d'une dépense est testée.
 
-### Choix techniques
+Le format des tests unitaires respectent le pattern AAA (Arrange - Act - Assert).
+J'ai utilise FluentAssertion, une librairie permettant de rendre les TU fluent.
+
+Pour le cas de la validation des dépenses, il n'était pas nécessaire d'utiliser de la donnée inline.
+
+Pour pouvoir tester ExpensesService, il était nécessaire de mocker ITimeService et d'injecter une instance de LuccaContext configurée avec EntityFramework.Core.InMemory.
+
+### Choix techniques et améliorations
+
 Il est pratique de séparer le model exposé par les controleurs de l'API du model de EF d'où DTOModels et EFModels.
-Je n'ai pas pris le temps d'utiliser un mapper (ex AutoMapper) pour mapper les 2 types Expenses...
+Je n'ai pas pris le temps d'utiliser un mapper (ex AutoMapper) pour mapper les 2 types DTOModels.DTOExpense et EFModels.Expenses...
+
+La création d'un service pour la gestion des dépenses contribue à la testabilité de l'API et permet de separer les concernes de :
+<ul>
+<li>ExpensesController exposant les endpoints de l'API. </li>
+<li>ExpensesService manipulant EFModels.Expenses. Pour cette classe, j'ai hesité entre le nom ExpensesService et le nom ExpensesRepository ...</li>
+</lu>
+
+
+
 
 
